@@ -1,0 +1,7 @@
+{
+  "name": "briefora-server", "version": "1.0.0", "type": "module",
+  "scripts": { "dev": "node --watch-path=src src/server.js", "start": "node src/server.js", "test": "node --test" },
+  "dependencies": {
+    "cors": "^2.8.5", "docx": "^9.5.1", "dotenv": "^17.2.3", "express": "^5.1.0", "express-rate-limit": "^8.1.0", "helmet": "^8.1.0", "jszip": "^3.10.1", "mammoth": "^1.10.0", "multer": "^2.0.2", "openai": "^6.49.0", "pdf-parse": "^1.1.1", "pdfkit": "^0.17.2", "sql.js": "^1.13.0", "zod": "^4.6.7"
+  }
+}
